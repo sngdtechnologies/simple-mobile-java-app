@@ -1,46 +1,40 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">FirebaseOC</string>
-    <string name="main_activity_description">Discute avec tes mentors, tout simplement.</string>
+<resources>
+    <string name="app_name">SaveMyTrip</string>
+    <string name="main_activity_description">Organise ton voyage de manière&#8230; totalement déconnectée !</string>
 
-    <string name="login">Connexion</string>
-    <string name="chat_with_mentor">Discute avec un mentor</string>
+    <!-- COMMON -->
+    <string name="title_trip_book">Carnet de voyage</string>
+    <string name="title_todo_list">Choses à faire</string>
+    <string name="title_permission">Cette application a besoin de permission pour fonctionner</string>
+    <string name="error_happened">Une erreur s\'est produite !</string>
 
-    <!-- NOTIFICATION SERVICE -->
-    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
-    <string name="notification_title">"Vous avez reçu une notification"</string>
+    <!-- TRIP BOOK ACTIVITY -->
+    <string name="saved">Enregistré</string>
+    <string name="external_storage_impossible_create_file">Impossible de créer un fichier sur l\'espace de stockage externe</string>
 
-    <!-- MAIN ACTIVITY -->
-    <string name="error_not_connected">Vous devez vous connecter !</string>
-    <string name="error_authentication_canceled">Authentification annulée&#8230;</string>
-    <string name="error_no_internet">Aucune connexion internet !</string>
-    <string name="error_unknown_error">Une erreur inconnue s\'est produite&#8230;</string>
-    <string name="connection_succeed">Authentification réussie !</string>
-    <string name="button_login_text_logged">Afficher le profil</string>
-    <string name="button_login_text_not_logged">Connexion</string>
+    <string name="question_storage_writing">Dans quel stockage souhaitez-vous écrire ?</string>
+    <string name="question_storage_writing_external">Externe</string>
+    <string name="question_storage_writing_internal">Interne</string>
 
-    <!-- LOGIN ACTIVITY -->
-    <string name="toolbar_title_login_activity">Votre Profil</string>
-    <string name="text_input_username">Nom d\'utilisateur</string>
-    <string name="text_view_email">Adresse email :</string>
-    <string name="button_update_account">Mettre à jour le nom d\'utilisateur</string>
-    <string name="button_delete_account">Supprimer mon compte</string>
-    <string name="button_sign_out_account">Déconnexion</string>
-    <string name="info_no_email_found">Auncune adresse email</string>
-    <string name="info_no_username_found">Aucun nom d\'utilisateur</string>
-    <string name="popup_message_confirmation_delete_account">Es-tu sûr(e) de vouloir supprimer ton compte ?</string>
-    <string name="popup_message_choice_yes">Oui !</string>
-    <string name="popup_message_choice_no">Non</string>
-    <string name="check_box_is_mentor">Etes-vous un mentor ?</string>
+    <string name="question_storage_privacy">Quel niveau de confidentialité souhaitez-vous ?</string>
+    <string name="question_storage_privacy_private">Privé</string>
+    <string name="question_storage_privacy_public">Public</string>
 
-    <!-- MENTOR_CHAT ACTIVITY -->
-    <string name="toolbar_title_mentor_chat_activity">Chats de discussions</string>
-    <string name="text_input_title_mentor_chat_activity">Composer votre message</string>
-    <string name="button_title_mentor_chat_activity">ENVOYER</string>
-    <string name="text_view_mentor_chat_error">Ce fil de discussion ne contient pour le moment aucun message&#8230;</string>
-    <string name="popup_title_permission_files_access">Cette application a besoin de permission pour fonctionner.</string>
-    <string name="toast_title_no_image_chosen">Aucune image choisie&#8230;</string>
+    <string name="question_storage_cache">Souhaitez-vous stocker le fichier en cache ?</string>
+    <string name="question_storage_cache_yes">Oui</string>
+    <string name="question_storage_cache_no">Non</string>
 
-    <!-- FACEBOOK PURPOSE -->
-    <string name="facebook_application_id" translatable="false">420763051691337</string>
-    <string name="facebook_login_protocol_scheme" translatable="false" tools:ignore="UnusedResources">fb420763051691337</string>
+    <string name="trip_book_edit_text_placeholder">Commence à écrire ton voyage ici&#8230;</string>
+    <string name="trip_book_button">Enregistrer</string>
+    <string name="trip_book_share">Partager votre carnet sur</string>
+
+    <!-- TODOLIST ACTIVITY -->
+    <string name="todolist_things_todo">Ajouter une chose à faire&#8230;</string>
+    <string name="todolist_button_add">Ajouter</string>
+    <string-array name="category_array">
+        <item>A visiter</item>
+        <item>Idées</item>
+        <item>Restaurants</item>
+    </string-array>
+
 </resources>
